@@ -1,0 +1,39 @@
+body {
+  background-color: #000;
+}
+
+*:focus {
+    outline: none;
+}
+
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	line-height: 1;
+	font-family: Arial, sans-serif;
+}
+
+svg {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: #000;
+}
+
+#svgCanvas {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  margin: 100px auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#svg_xml {
+  opacity: 0;
+}
+
